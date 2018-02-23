@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: grey;
+  border:solid darkgrey 1px;
+}
+header,
+footer {
+  height:100px; 
+  width:100%;
+}
+header {
+  margin-bottom:3%;
+}
+footer {
+  clear:both;
+}
+section {
+  width: 73%;
+  height: 500px;
+  float: left;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+aside {
+  width: 23%;
+  height: 500px;
+  float: right;
+  margin-left: 2%;
+}
+body {
+  padding: 3%;
+}

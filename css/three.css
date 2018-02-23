@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: grey;
+  border:solid darkgrey 1px;
+}
+header,
+footer {
+  height:100px; 
+  width:100%;
+  background-color: grey;
+}
+header {
+  margin-bottom:2%;
+}
+footer {
+  clear:both;
+}
+section {
+  height: 500px;
+  float: left;
+}
+aside {
+  height: 500px;
+  width: 23%
+}
+body {
+  padding: 3%;
+}
+.left {
+  margin-right: 2%;
+  float: left;
+}
+.right {
+  margin-left: 2%;
+  float: left;
+}
+section {
+  width: 50%;
+  height: 500px;
+  float: left;
+  margin-bottom: 3%;
+}
+

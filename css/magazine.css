@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: grey;
+  border:solid darkgrey 1px;
+}
+body {
+  padding: 3%;
+  clear: both;
+}
+header{
+  height:100px; 
+  width:250px;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+footer {
+  height:100px; 
+  width:100%;
+}
+.nav-1 {
+  height:50px; 
+  width:10%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-2 {
+  height:50px; 
+  width:10%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-3 {
+  height:50px; 
+  width:10%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-4 {
+  height:50px; 
+  width:10%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-5 {
+  height:50px; 
+  width:10%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.long {
+  height:438px;
+  width:15%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  float:left;
+}
+.horizontal {
+  height: 100px;
+  width: 83%;
+  margin-bottom: 2%;
+  float: right;
+}
+.big_little-2 {
+  height: 200px;
+  width: 61.5%;
+  margin-bottom: 2%;
+  float: right;
+}
+.big_little-1 {
+  height: 200px;
+  width: 18.5%;
+  margin-bottom: 2%;
+  float: right;
+  margin-left: 3%;
+
+}
+.quad-1 {
+  height: 100px;
+  width: 18.5%;
+  margin-bottom:2%;
+  float: right;
+  margin-left: 3%;
+}
+.quad-2 {
+  height: 100px;
+  width: 18.5%;
+  margin-bottom:2%;
+  float: right;
+  margin-left: 3%;
+}
+.quad-3 {
+  height: 100px;
+  width: 18.5%;
+  margin-bottom:2%;
+  float: right;
+  margin-left: 3%;
+}
+.quad-4 {
+  height: 100px;
+  width: 18.5%;
+  margin-bottom:2%;
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear:both;
+}

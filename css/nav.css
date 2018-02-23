@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: grey;
+  border:solid darkgrey 1px;
+}
+body {
+  padding: 3%;
+}
+header{
+  height:100px; 
+  width:200px;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+footer {
+  height:100px; 
+  width:100%;
+}
+nav {
+  clear: both;
+}
+.nav-1 {
+  height:50px; 
+  width:15%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-2 {
+  height:50px; 
+  width:15%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-3 {
+  height:50px; 
+  width:15%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.nav-4 {
+  height:50px; 
+  width:15%;
+  float:right;
+  margin-left: 3%;
+  margin-top: 2.5%;
+}
+.full {
+  height: 250px;
+  width: 100%
+  margin-bottom: 2%;
+}
+.third {
+  height: 200px;
+  width: 31%;
+  margin-bottom: 2%;
+}
+.left {
+  float: left;
+  margin-right: 3.25%;
+  margin-top: 2%;
+}
+.center {
+  float: left;
+  margin-right: 3.25%;
+  margin-top: 2%;
+}
+.right {
+  float: right;
+  margin-top: 2%;
+}
+.clearfix::after {
+  content: "";
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear:both;
+}
